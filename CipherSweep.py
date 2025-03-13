@@ -13,13 +13,11 @@ RESET = "\033[0m"
 def run_nmap_scan(hostname, port):
     """ Run nmap scan to get supported ciphers using subprocess """
     try:
-        # Run the nmap command with ssl-enum-ciphers script
         result = subprocess.run(
             ['nmap', '-p', str(port), '--script', 'ssl-enum-ciphers', hostname],
             capture_output=True, text=True, check=True
         )
         
-        # Return the standard output
         return result.stdout
     except subprocess.CalledProcessError as e:
         print(f"Error running nmap scan: {e}")
