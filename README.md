@@ -1,4 +1,4 @@
-# SSL Cipher TLS and Cipher Scanner
+# TLS and Cipher Scanner
 
 A tool to scan web applications for SSL/TLS cipher strength using and output to a table or CSV file.
 
