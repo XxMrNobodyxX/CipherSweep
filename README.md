@@ -10,6 +10,8 @@ A tool to scan web applications for SSL/TLS cipher strength using and output to 
 - Supports scanning multiple hosts from a file
 - Outputs results in a formatted table and optionally to CSV
 
+  ![image](https://github.com/user-attachments/assets/6594d93f-d826-4b67-876c-71e91ea4e84f)
+
 ## Requirements
 
 - Python 3.6+
